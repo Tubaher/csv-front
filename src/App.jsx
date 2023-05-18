@@ -1,11 +1,11 @@
 import './App.css'
 import Container from 'react-bootstrap/Container'
+import TablePage from './Table/pages/TablePage'
 
-const App = (props) => {
+const App = () => {
   return (
     <Container>
-      <h1>React Bootstrap</h1>
-      {props.chldren}
+      <TablePage />
     </Container>
   )
 }
